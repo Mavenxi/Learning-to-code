@@ -1,0 +1,16 @@
+def max_num(a, b):
+    if a > b and a != b:
+        return a
+    elif b > a and b != a:
+        return b
+    else:
+        return None
+
+# example 
+num1 = 10
+num2 = 20
+max_number = max_num(num1, num2)
+if max_number:
+    print("The maximum is:", max_number)
+else:
+    print("The two numbers are equal")
