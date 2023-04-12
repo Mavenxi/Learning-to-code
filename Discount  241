@@ -1,0 +1,9 @@
+shoe_price = 20
+shoe_count = int(input("How many shoes would you like to purchase? "))
+
+if shoe_count % 2 == 0:
+    total_price = (shoe_count / 2) * shoe_price
+else:
+    total_price = ((shoe_count - 1) / 2) * shoe_price + shoe_price
+
+print("Your total price is:", total_price)
